@@ -1,0 +1,99 @@
+digraph vierzehn {
+	label="Heidegger, Sein und Zeit, §§ 13 -- 16";
+	subgraph cluster_13 {
+		style=filled;
+		color="#ededed";
+		label = "Das In-der-Welt-sein überhaupt als Grundverfassung des Daseins\n§ 13: Die Exemplifizierung des In-Seins an einem fundierten Modus. Das Welterkennen.«";
+		"Frage: Was ist das »In-der-Welt-Sein«?" -> "Dasein ist immer bereits in-der-Welt" -> "Dasein erfährt die Welt ontisch\n(aber versteht sie nicht ontologisch)" -> "Jedes Dasein hat ein »vorontologisches«\nVerständnis vom Sein" -> "Das klassische Subjekt-Objekt-Verhältnis\nzur Welt ist nur geistiges Konstrukt, aber kein Phänomen." -> "Wie soll der »Sprung« gehen\nvon der subjektiven in die objektive Welt?" -> "Er ist nicht denkbar im klassischen System.";
+
+		"Er ist nicht denkbar im klassischen System." -> "Frage: Was ist Erkennen?";
+		"Er ist nicht denkbar im klassischen System." -> "Frage: Wie muss das\n»Ding« gedacht werden?" -> "Frage: Was ist »Welt«?";
+
+		"Frage: Was ist Erkennen?" -> "Erkennen ist eine Seinsweise des »In-der-Welt-Seins« eines Daseins" -> "Spezifizierung Stufe I: Erkennen ist ein\n»Schon-bei-der-Welt-sein« des Daseins" -> "Spezifizierung Stufe II: Das Dasein ist\nbesorgterweise »benommen« von der Welt." -> "Erkennen ist Auslegen-können, Bestimmen-können\nund Verbalisieren-können" -> "Das Verstehen ist kein Erkennen, weil ihm die\nWeise des Umganges fehlt, selbst\nVergessen ist ein Modus des In-Seins." -> "Das Selbst ändert beim Erkennen den »Seinsstand«, d.h. sein Verhältnis zur Welt." -> "Frage: Was ist »Welt«?";
+
+	}
+	subgraph cluster_14 {
+		style=filled;
+		color="#ededed";
+		label = "Die Weltlichkeit der Welt\n§ 14: Die Idee der Weltlichkeit der Welt überhaupt«";
+		//"Frage: Was ist »Welt«?" -> "1. Hypothese: Die Welt ist das All des Seienden" -> "Problem: dies ist eine ontische Beschreibung,\nkeine ontologische. Daher ist die Welt als All des Seienden\nkeine phänomenologische Definition." -> "Die Frage richtet sich nicht nach dem\nSeienden, sondern nach dem ontologischen Sinn";
+
+		subgraph cluster_hypothesen {
+			style=filled;
+			color="#bdbdbd";
+			label = "Hypothesen";
+			"Frage: Was ist »Welt«?" -> "1. Hypothese: Die Welt ist\ndas Sein alles Seienden";
+			"Frage: Was ist »Welt«?" -> "2. Hypothese: Die Welt ist\nontologischer Terminus für das\nReich des Seienden";
+			"Frage: Was ist »Welt«?" -> "3. Hypothese: Ontisch verstanden\nals die Welt, in der das\nDasein bereits lebt";
+			"Frage: Was ist »Welt«?" -> "4. Hypothese: »Welt« ist ein\nontologisches Existenzial, das\ndie Welt beschreibt,\nin der das Dasein je bereits ist.";
+		}
+
+		"1. Hypothese: Die Welt ist\ndas Sein alles Seienden" -> "Hierbei ist die Welt nicht Phänomen" -> "Die tatsächliche Erfahrung der Welt\nist bisher ontologisch übersprungen worden";
+		"2. Hypothese: Die Welt ist\nontologischer Terminus für das\nReich des Seienden" -> "Hierbei ist die Welt nicht Phänomen";
+		"3. Hypothese: Ontisch verstanden\nals die Welt, in der das\nDasein bereits lebt" -> "Die tatsächliche Erfahrung der Welt\nist bisher ontologisch übersprungen worden";
+		"4. Hypothese: »Welt« ist ein\nontologisches Existenzial, das\ndie Welt beschreibt,\nin der das Dasein je bereits ist." -> "Die tatsächliche Erfahrung der Welt\nist bisher ontologisch übersprungen worden";
+
+		"Die tatsächliche Erfahrung der Welt\nist bisher ontologisch übersprungen worden" -> "Die Welt wurde (im Extremfall von Descartes) als\nres extensa (materielle Außenwelt)\nund res cogitans (inneres Dasein)\ngespalten, bisher aber nie als reines Phänomen betrachtet." -> "Das Sein wurde bisher nur aus dem Sein\ndes Seienden heraus interpretiert" -> "Die praktisch nächste Welt des\nje-seienden Daseins seine Umwelt" -> "Heideggers Untersuchung geht den\nWeg über die alltägliche Erfahrung der Welt\nhin zur Weltlichkeit selbst" -> "Schritte der Untersuchung: ";
+
+		subgraph cluster_schritte {
+			style=filled;
+			color="#bdbdbd";
+			label = "Schritte der Untersuchung";
+			"Schritte der Untersuchung: " -> "1. »Analyse der Umweltlichkeit und Weltlichkeit überhaupt« (S. 66)" -> "2. Deutliche Abgrenzung von Descartes »Welt«-Begriff" -> "3. Die Weise des Um-Seins\n(das »Umhafte«) der Umwelt und die\nRaumeingebundenheit (»Räumlichkeit«) des Daseins";
+
+			"Frage: Wie muss das\n»Ding« gedacht werden?" -> "2. Deutliche Abgrenzung von Descartes »Welt«-Begriff" -> "U.A. in § 19";
+
+			"3. Die Weise des Um-Seins\n(das »Umhafte«) der Umwelt und die\nRaumeingebundenheit (»Räumlichkeit«) des Daseins" -> "U.A. in §§ 25 — 27";
+		}
+	}
+
+	subgraph cluster_15 {
+		style=filled;
+		color="#ededed";
+		label = "A. Die Analyse der Umweltlichkeit und Weltlichkeit überhaupt\n§ 15: Das Sein des in der Umwelt begegnenden Seienden";
+
+		"1. »Analyse der Umweltlichkeit und Weltlichkeit überhaupt« (S. 66)" -> "Das Verstehen der (Um)weltlichkeit ist nur aus\neinem sich-verhalten-zu zu erlangen,\ndas wir immer bereits tun, weil wir ein vorontologisches\nSeinsverständnis haben";
+
+		"Heideggers Untersuchung geht den\nWeg über die alltägliche Erfahrung der Welt\nhin zur Weltlichkeit selbst" -> "Das Verstehen der (Um)weltlichkeit ist nur aus\neinem sich-verhalten-zu zu erlangen,\ndas wir immer bereits tun, weil wir ein vorontologisches\nSeinsverständnis haben" -> "Ich kann Türklinken, Schlüssel usw. bedienen,\n ohne zu verstehen, wie sie funktionieren.\nIch brauche also kein rationales\n(»ontologisches«) Verständnis für das reine Benutzen,\nsondern nur ein (»ontisches«) Handelnsverständnis, das\n wir immer schon gewisserweise haben" [label = "Das heißt: kein Seinssystem abstrakt\nkonstruieren, sondern direkt erfahren"];
+
+		"Ich kann Türklinken, Schlüssel usw. bedienen,\n ohne zu verstehen, wie sie funktionieren.\nIch brauche also kein rationales\n(»ontologisches«) Verständnis für das reine Benutzen,\nsondern nur ein (»ontisches«) Handelnsverständnis, das\n wir immer schon gewisserweise haben" -> "Wie gewinnen wir einen ersten Zugang zum Problem des erkennenden In-der-Welt-Seins?" -> "Über die Dinge" -> "Frage: Wie muss das\n»Ding« gedacht werden?" -> "Das klassische Ding als res extensa ist\nnicht vorurteilsfrei, sondern geschichtsbestimmt. Es\ngeht um die vorurteilsfreie phänomenologische\nBestimmung davon, was ein Ding ist" -> "Durch das Ding als gedachtes »res extensa«\nist das tatsächlich erfahrbare nicht fassbar" -> "Eine mögliche Seinsweise des Dinges\nist das Zeug, d.h. das Ding im\nBenutzungszusammenhang\n(ein Hammer, mit dem man etwas hämmert z.B:)" -> "Zeug ist etwas, »um-zu-...«, d.h.\nes ist immer im Zeugganzen\neingebunden (dem »um-zu-Zusammenhang«). Zeug ist\nalso ausgemacht durch\nden Umgang, nicht durch rationales »Begaffen«" -> "»Je weniger das Hammerding nur begafft wird,\nje zugreifender es gebraucht wird, um so ursprünglicher\nwird das Verhältnis zu ihm, um so unverhüllter begegnet\nes all das was es ist, als Zeug« (S.69)" -> "Diese Seinsweise des »Umganges-mit-...« ist die »Zuhandenheit«" -> "Jedes Zeug hat sein »Wozu«";
+
+		"Diese Seinsweise des »Umganges-mit-...« ist die »Zuhandenheit«" -> "Zuhandenheit soll anzeigen, wie die Dinge uns\nwirklich begegnen, nicht, wie wir sie uns denken" -> "Wir haben all dies schon immer\nunbewusst vorausgesetzt und irgendwie verstanden.\nSind wir der Frage nach\ndem Weltphänomen näher gekommen?";
+
+		"Über die Dinge" -> "Dinge begegnen uns unter Anderem als Zeug" -> "Jedes Zeug hat sein »Wozu«" -> "Wir haben all dies schon immer\nunbewusst vorausgesetzt und irgendwie verstanden.\nSind wir der Frage nach\ndem Weltphänomen näher gekommen?";
+
+		subgraph cluster_zeug {
+			style=filled;
+			color="#bdbdbd";
+			label = "Zeug";
+			"Jedes Zeug hat sein »Wozu«" -> "Sowohl über das Zeug als auch\nüber das Hergestellte gelangt\nman immer zur Natur, weil beides immer\naus Naturdingen besteht";
+			"Jedes Zeug hat sein »Wozu«" -> "Das mit dem Zeug Hergestellte ist das Werk" -> "Das Werk ist immer auch\nein Verweis auf den Hersteller, selbst\nbei »Dutzendwaren« (nur dort nicht\neine spezifische Person, sondern ein »Durchschnitt«) (S.71)" -> "Wir haben all dies schon immer\nunbewusst vorausgesetzt und irgendwie verstanden.\nSind wir der Frage nach\ndem Weltphänomen näher gekommen?";
+
+			"Jedes Zeug hat sein »Wozu«" -> "Zeug ist keine »aufgeredete« Sache an\neinem Ding, der Zeugzusammenhang ist eine\nfundamentale Seinsweise, ein wichtiger Schritt\nRichtung Verständnis des bloß-Seienden Dinges" -> "Wir haben all dies schon immer\nunbewusst vorausgesetzt und irgendwie verstanden.\nSind wir der Frage nach\ndem Weltphänomen näher gekommen?";
+		}
+	}
+
+	subgraph cluster_16 {
+		style=filled;
+		color="#ededed";
+		label = "§ 16: Die am innerweltlich Seienden sich meldende Weltmäßigkeit der Umwelt";
+
+		"Wir haben all dies schon immer\nunbewusst vorausgesetzt und irgendwie verstanden.\nSind wir der Frage nach\ndem Weltphänomen näher gekommen?" -> "»Welt ist nichts innerweltlich Seiendes«,\nd.h. die Welt ist nichts, was wir in der Welt finden können" -> "Trotzdem bestimmt sie alles Seiende" -> "Frage: „Wie gibt es »Welt«?“ (S. 72)" -> "Wie kann man »Welt« interpretieren,\nohne auf das klassische Verständnis der\nWelt als All des Seienden zu bauen?" -> "Über die Dinge";
+
+		"Dinge begegnen uns unter Anderem als Zeug" -> "Zeug als erfahrbare Seinsweise kann defizitär\nsein, d.h. es kann aus falschem Material,\nin unpassender Form oder defekt usw. sein" -> "Erst im defizitärem Umgang (d.h. wenn\nein Zeug nicht funktioniert) fällt\nuns der Zeugcharakter des Zeuges auf\n(Beispiel: niemand merkt, dass es\ndie IT-Abteilung gibt, bis die Rechner nicht\nmehr funktionieren)" -> "»Ein Zeug ist unverwendbar — darin liegt: die konstitutive Verweisung des Um-zu auf ein Dazu ist gestört« (S. 74)";
+
+		"Frage: Wie muss das\n»Ding« gedacht werden?" -> "Zeug als erfahrbare Seinsweise kann defizitär\nsein, d.h. es kann aus falschem Material,\nin unpassender Form oder defekt usw. sein" -> "Manche Dinge sind nicht zuhanden, d.h.\nsie sind nicht nur nicht benutzbar,\nsondern gar nicht da" -> "»Ein Zeug ist unverwendbar — darin liegt: die konstitutive Verweisung des Um-zu auf ein Dazu ist gestört« (S. 74)";
+
+		"Zeug als erfahrbare Seinsweise kann defizitär\nsein, d.h. es kann aus falschem Material,\nin unpassender Form oder defekt usw. sein" -> "Manchmal sind Dinge aber auch in ihrem\nVorhandensein (oder: wegen) ein Hindernis für den \nZeugzusammenhang und damit trotz ihrer\nVorhandenheit ein Unzuhandenes" -> "»Ein Zeug ist unverwendbar — darin liegt: die konstitutive Verweisung des Um-zu auf ein Dazu ist gestört« (S. 74)";
+
+		"»Ein Zeug ist unverwendbar — darin liegt: die konstitutive Verweisung des Um-zu auf ein Dazu ist gestört« (S. 74)" -> "Die Welt muss mir schon irgendwie\nerschlossen sein, damit mir etwas als\nnicht-funktionierend auffallen kann";
+
+		"»Vorhandenes« ist »Da« vor aller Feststellung,\nd.h. es braucht kein rationales ontologisches\nVerstehen des Vorhandenen, um ontisch mit\nihm umgehen zu können" -> "Zuhandenes ist durch die Verweisungen\nauf Anderes bestimmt (z.B. den Zeugzusammenhang)" -> "Bewusst wird uns das aber erst, wenn\nwir eine Störung dieser Verweisung bemerken" -> "Zeug als erfahrbare Seinsweise kann defizitär\nsein, d.h. es kann aus falschem Material,\nin unpassender Form oder defekt usw. sein" -> "Die Welt muss mir schon irgendwie\nerschlossen sein, damit mir etwas als\nnicht-funktionierend auffallen kann" -> "Diese »Welterschlossenheit« ist das\nbesorgende Umgehen mit der Welt" -> "»In-der-Welt-sein besagt nach der\nbisherigen Interpretation: das unthematische, umsichtige\nAufgehen in den für die Zuhandenheit des Zeugganzen\nkonstitutiven Verweisungen« (S. 76)";
+
+		"Frage: Was ist das »In-der-Welt-Sein«?" -> "»In-der-Welt-sein besagt nach der\nbisherigen Interpretation: das unthematische, umsichtige\nAufgehen in den für die Zuhandenheit des Zeugganzen\nkonstitutiven Verweisungen« (S. 76)";
+
+		"»In-der-Welt-sein besagt nach der\nbisherigen Interpretation: das unthematische, umsichtige\nAufgehen in den für die Zuhandenheit des Zeugganzen\nkonstitutiven Verweisungen« (S. 76)" -> "Dies ist der Modus des Seins, in dem\nwir uns alle je schon immer befunden haben";
+
+		// "Eine mögliche Seinsweise des Dinges\nist das Zeug, d.h. das Ding im\nBenutzungszusammenhang\n(ein Hammer, mit dem man etwas hämmert z.B:)" -> "Zeug TODO";
+	}
+}
